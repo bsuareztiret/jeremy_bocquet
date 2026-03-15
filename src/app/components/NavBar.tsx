@@ -1,8 +1,8 @@
 "use client";
 
-import { ROUTE } from "./var.ts";
+import { ROUTE } from "./var";
 import React from "react";
-import { NavToggle } from "./NavToggle.tsx";
+import { NavToggle } from "./NavToggle";
 
 export function NavBar() {
   const [toggle, setToogle] = React.useState<boolean>(false);

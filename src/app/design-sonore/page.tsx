@@ -1,15 +1,18 @@
-import SoundSection from "./components/DesignSection.tsx";
-import JobCard from "./components/JobCard.tsx";
+import SoundSection from "./components/DesignSection";
+import JobCard from "./components/JobCard";
 import designsection from "../../../public/designsection.json";
-import designSonore from "./designSonore.module.css"
+import designSonore from "./designSonore.module.css";
 
 export type SoundItem = {
   id: string;
   title: string;
-  year: string;
-  place: string;
-  description: string;
+  year?: string;
+  place?: string;
+  authorDirector?: string;
+  description?: string;
   slug: string;
+  article: string;
+  lien: string;
 };
 
 export type SoundSectionData = {
@@ -27,7 +30,7 @@ export default function DesignSonore() {
             key={section.id}
             title={section.title}
             items={section.items}
-            />
+          />
         ))}
       </div>
     </div>

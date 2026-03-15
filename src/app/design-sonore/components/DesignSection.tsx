@@ -2,20 +2,22 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import SoundItem from "./design-sonore/page.tsx"
-import designSonore from "../designSonore.module.css"
-import JobCard from "./JobCard.tsx";
+import designSonore from "../designSonore.module.css";
+import type { SoundItem } from "../page";
+import JobCard from "./JobCard";
 
 type SoundSectionProps = {
   title: string;
   items: SoundItem[];
 };
 
-export default function SoundSection({ title, items, key }: SoundSectionProps) {
+export default function SoundSection({ title, items }: SoundSectionProps) {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className={`${designSonore.sound_section} ${open ? designSonore.open : ""}`}>
+    <section
+      className={`${designSonore.sound_section} ${open ? designSonore.open : ""}`}
+    >
       <button
         className={`${designSonore.sound_section__header}`}
         onClick={() => setOpen(!open)}
@@ -28,9 +30,7 @@ export default function SoundSection({ title, items, key }: SoundSectionProps) {
         <ul>
           {items.map((item, index) => (
             <li key={index}>
-              <JobCard
-                item={item}
-              />
+              <JobCard item={item} />
             </li>
 
             // <li key={index}>

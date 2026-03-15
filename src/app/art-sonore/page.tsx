@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { SoundCard } from "../components/SoundCard.tsx";
+import { SoundCard } from "./components/SoundCard";
+import { SoundCardProps } from "./components/SoundCard";
 import soundcards from "../../../public/soundtest.json";
 import artSonore from "./artSonore.module.css";
 

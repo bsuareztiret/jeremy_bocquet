@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { NavBar } from "./components/NavBar.tsx";
-import { Header } from "./components/Header.tsx";
-import { Footer } from "./components/Footer.tsx";
-import { Footer2 } from "./components/Footer2.tsx";
+import { NavBar } from "./components/NavBar";
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+import { Footer2 } from "./components/Footer2";
 import "./globals.css";
 
 const enbyGertrude = localFont({

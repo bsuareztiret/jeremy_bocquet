@@ -1,5 +1,6 @@
 import Link from "next/link";
 import designSonore from "../designSonore.module.css";
+import type { SoundItem } from "../page";
 
 type JobCardProps = {
   item: SoundItem;

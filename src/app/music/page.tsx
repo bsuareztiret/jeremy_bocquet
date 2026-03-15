@@ -1,6 +1,7 @@
 import musiccards from "../../../public/musiccards.json";
-import { MusicCard } from "./components/MusicCard.tsx"
-import music from "./music.module.css"
+import { MusicCard } from "./components/MusicCard";
+import { MusicCardProps } from "./components/MusicCard";
+import music from "./music.module.css";
 
 export default function Music() {
   return (
