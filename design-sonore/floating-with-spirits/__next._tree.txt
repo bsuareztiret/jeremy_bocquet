@@ -1,0 +1,4 @@
+:HL["/jeremy_bocquet/_next/static/chunks/ebf838f4c61ea6fc.css","style"]
+:HL["/jeremy_bocquet/_next/static/media/Enby_Gertrude_roman-s.p.29256b47.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/jeremy_bocquet/_next/static/media/Josafronde_Regular-s.p.d7f41da0.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"axNF0YTkHc8hnOSwtHln6","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"design-sonore","paramType":null,"paramKey":"design-sonore","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"floating-with-spirits","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

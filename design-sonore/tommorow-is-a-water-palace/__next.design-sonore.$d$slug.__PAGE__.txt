@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[95436,["/jeremy_bocquet/_next/static/chunks/59711dc4b8fa1517.js","/jeremy_bocquet/_next/static/chunks/b32479835d34277d.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"buildId":"axNF0YTkHc8hnOSwtHln6","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"main__wrap","children":["$","h2",null,{"children":"Projet introuvable"}]}],[["$","script","script-0",{"src":"/jeremy_bocquet/_next/static/chunks/268a575d5d73c1fc.js","async":true}]],["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+4:null
