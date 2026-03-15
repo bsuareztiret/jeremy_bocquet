@@ -2,8 +2,8 @@ import articles from "../../../../public/soundtest.json";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import test from "../test.module.css";
-import { MediaEmbed } from "../../components/MediaEmbed";
-import { BandcampEmbed } from "../../components/BandcampEmbed";
+
+import ArticleSonoreClient from "./ArticleClient";
 
 export type ContentBlock =
   | { type: "paragraph"; text: string }
@@ -40,7 +40,7 @@ export default function Page({ params }: { params: { slug: string } }) {
     );
   }
 
-  return <ArticleClient article={article} />;
+  return <ArticleSonoreClient article={article} />;
 }
 
 // export default function ArticlePage() {

@@ -14,7 +14,7 @@ type Props = {
   article: Article;
 };
 
-export default function ArticleClient({ article }: Props) {
+export default function ArticleSonoreClient({ article }: Props) {
   return (
     <div className="main__wrap">
       <article className={`${test.article}`}>
