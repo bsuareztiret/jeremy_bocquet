@@ -1,0 +1,62 @@
+.sound_section {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.sound_section__header {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-align: left;
+}
+
+.sound_section__header h2 {
+    font-family: var(--font-enby-gertrude), sans-serif;
+}
+
+.indicator {
+    /*font-size: 1.5rem;*/
+    transition: transform 0.3s ease;
+}
+
+.sound_section.open .indicator {
+    transform: rotate(180deg);
+}
+
+/* content animation */
+.sound_section__content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease;
+}
+
+.sound_section.open .sound_section__content {
+    overflow-y: auto;
+    max-height: 1500px;
+}
+
+.sound_section__content ul {
+    padding: 0 0 1.5rem;
+    margin: 0;
+    list-style: none;
+}
+
+.sound_section__content li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.job_card_article:hover {
+    opacity: 0.6;
+}
+
+@media (min-width: 1024px) {
+    .sound_section__content li {
+        padding-left: 4rem;
+    }
+}

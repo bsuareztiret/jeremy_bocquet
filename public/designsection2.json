@@ -1,0 +1,115 @@
+[
+  {
+    "id": "Creation-Sonore",
+    "title": "Création Sonore C'EST UNE SECTION DÉROULANTE",
+    "items": [
+      {
+        "id": "Grains-de-pouvoir",
+        "title": "Grain de pouvoir",
+        "year": "2025",
+        "place": "Europod",
+        "description": "Montage, mixage et mastering",
+        "slug": "grains-de-pouvoir",
+        "article": "Grain de Pouvoir est un podcast documentaire qui vous emmène en voyage, du cœur de l’Ukraine aux marchés d’Égypte, en passant par la Roumanie, l’Italie et Bruxelles. Il explore comment un bien essentiel – les graines, le blé, le pain – est devenu une arme de pouvoir, jouant un rôle crucial au Nord comme au Sud.",
+        "lien": "https://www.europod.eu/podcast/grain_de_pouvoir/"
+      },
+      {
+        "id": "Vie-de-routier",
+        "title": "Vie de routier·e·s",
+        "year": "2025",
+        "place": "Europod",
+        "description": "Montage, mixage et mastering.",
+        "slug": "vie-de-routieres",
+        "article": "Vie de routier·e·s, c’est l’histoire d’un métier indispensable, mais aussi celle d’un système économique et logistique sous tension. Une histoire d’exploitation, de concurrence féroce et d’un équilibre devenu incontrôlable. Chaque jour, des milliers de camions sillonnent les routes d’Europe pour livrer les produits que nous consommons sans même y penser. ",
+        "lien": "https://www.europod.eu/podcast/vie-de-routier-e-s/"
+      },
+      {
+        "id": "Santiago-boys",
+        "title": "Les Santiago Boys",
+        "year": "2024",
+        "place": "Production indépendante",
+        "description": "Adapation en français de la série d'Evgeny Morozov",
+        "slug": "santiago-boys",
+        "article": "Les Santiago Boys est un podcast en 18 épisodes sur un groupe d'utopistes radicaux autour de Salvador Allende, le président socialiste du Chili. Sans se laisser décourager par la guerre froide et les machinations de leurs ennemis, et aidés par un consultant britannique excentrique, ils tentent d'arracher aux multinationales et aux agences de renseignement le contrôle de la technologie et de créer des outils cybernétiques innovants. Alors que leur rêve est anéanti par le coup d'État sanglant de Pinochet, les santiago Boys trouvent une vie après la mort inattendue, notamment dans la Silicon Valley.",
+        "lien": "https://www.europod.eu/podcast/les-santiago-boys/"
+      },
+      {
+        "id": "AI-and-You",
+        "title": "AI and You",
+        "year": "2024",
+        "place": "Europod",
+        "description": "Création sonore originale, montage, mixage, mastering et supervision de l'adaptation en 5 langues.",
+        "slug": "ai-and-you",
+        "article": " Série de podcasts en 10 épisodes disponibles en 5 langues qui répond aux questions les plus brûlantes sur l'impact actuel et futur de l'intelligence artificielle dans nos vies.",
+        "lien": "https://www.europod.eu/podcast/ai-and-you/"
+      }
+
+    ]
+  },
+  {
+    "id": "Filmographie",
+    "title": "Filmographie",
+    "items": [
+      {
+        "id": "marée-noire",
+        "title": "Marée noire",
+        "author-director": "Aliki Christoforou",
+        "year": "2024",
+        "description": "Composition et création sonore originale pour documentaire.",
+        "slug": "mareenoire",
+        "article": "Création sonore et mixage",
+        "lien": "https://fisheyeimmersive.com/article/au-centre-wallonie-bruxelles-lart-video-est-comme-un-poisson-dans-leau/"
+      },
+      {
+        "id": "Floating-with-Spirits",
+        "title": "Floating with Spirits",
+        "author-director": "Juanita Onzaga",
+        "year": "2023",
+        "description": "Composition et création sonore originale pour film en réalité virtuelle.",
+        "slug": "floating-with-spirits",
+        "article": "Composition musicale et Création sonore et mixage",
+        "lien": "https://cargocollective.com/juanitaonzaga/FLOATING-WITH-SPIRITS"
+      },
+      {
+        "id": "Tomorrow-is-a-water-palace",
+        "title": "Tomorrow is a water Palace",
+        "author-director": "Juanita Onzaga",
+        "year": "2022",
+        "description": "Composition et création sonore originale.",
+        "slug": "tommorow-is-a-water-palace",
+        "article": "Composition musicale et Création sonore",
+        "lien": "https://cargocollective.com/juanitaonzaga/TOMORROW-IS-A-WATER-PALACE"
+      },
+      {
+        "id": "Our-song-to-war",
+        "title": "Our song to war",
+        "author-director": "Juanita Onzaga",
+        "year": "2018",
+        "description": "Création sonore originale et mixage.",
+        "slug": "our-song-to-war",
+        "article": "Composition musicale et Création sonore",
+        "lien": "https://cargocollective.com/juanitaonzaga/OUR-SONG-TO-WAR"
+      },
+      {
+        "id": "The-jungle-knows-you-better-than-you-do",
+        "title": "The Jungle knows you better than you do",
+        "author-director": "Juanita Onzaga",
+        "year": "2017",
+        "description": "Création sonore originale.",
+        "slug": "the-jungle-knows-you-better-than-you-do",
+        "article": "Composition musicale et Création sonore",
+        "lien": "https://cargocollective.com/juanitaonzaga/THE-JUNGLE-KNOWS-YOU-BETTER-THAN-YOU-DO"
+      },
+      {
+        "id": "Dans-la-joie-et-la-bonne-humeur",
+        "title": "The Jungle knows you better than you do",
+        "author-director": "Jeanne Boukraa",
+        "year": "2017",
+        "description": "Création sonore originale.",
+        "slug": "dans-la-joie-et-la-bonne-humeur",
+        "article": "Création sonore, composition, montage son et mixage",
+        "lien": "https://www.formatcourt.com/2017/03/dans-la-joie-et-la-bonne-humeur-de-jeanne-boukra/"
+      }
+    ]
+  }
+]
