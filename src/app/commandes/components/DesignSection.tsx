@@ -1,0 +1,40 @@
+"use client";
+
+import { useState } from "react";
+import type { SoundItem } from "./DesignSonoreSection";
+import designSonore from "../designSonore.module.css";
+import JobCard from "./JobCard";
+
+type SoundSectionProps = {
+  title: string;
+  items: SoundItem[];
+  key: string;
+};
+
+export default function SoundSection({ title, items, key }: SoundSectionProps) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <section
+      className={`${designSonore.sound_section} ${open ? designSonore.open : ""}`}
+    >
+      <button
+        className={`${designSonore.sound_section__header}`}
+        onClick={() => setOpen(!open)}
+      >
+        <h2>{title}</h2>
+        <span className={`${designSonore.indicator}`}>{open ? "–" : "+"}</span>
+      </button>
+
+      <div className={`${designSonore.sound_section__content}`}>
+        <ul>
+          {items.map((item, index) => (
+            <li key={`${index}${key}`}>
+              <JobCard item={item} />
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+}

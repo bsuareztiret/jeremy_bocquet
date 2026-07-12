@@ -1,0 +1,56 @@
+.title {
+    font-family: var(--font-enby_gertrude);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* CARD */
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    padding: 1.5rem;
+    border: 1px solid #222;
+
+    text-decoration: none;
+    color: inherit;
+
+    transition: all 0.3s ease;
+}
+
+/* hover */
+.card:hover {
+    background: #000;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* contenu */
+.cardContent h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.cardContent p {
+    opacity: 0.6;
+    font-size: 0.95rem;
+}
+
+/* action */
+.action {
+    font-size: 0.9rem;
+    opacity: 0.6;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .action {
+    transform: translateX(5px);
+    opacity: 1;
+}

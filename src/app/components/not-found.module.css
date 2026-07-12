@@ -1,0 +1,37 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.content {
+    max-width: 500px;
+}
+
+/* 404 énorme */
+.code {
+    font-size: 8rem;
+    font-family: var(--font-enby_gertrude);
+    line-height: 1;
+    margin-bottom: 1rem;
+    letter-spacing: -2px;
+}
+
+/* texte */
+.text {
+    font-size: 1.2rem;
+    opacity: 0.7;
+    margin-bottom: 2rem;
+}
+
+/* lien */
+.link {
+    display: inline-block;
+    padding: 10px 16px;
+    border: 1px solid #000;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
