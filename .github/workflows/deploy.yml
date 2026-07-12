@@ -33,5 +33,5 @@ jobs:
       - name: Deploy to Levv
         run: |
           curl -X POST "https://api.levv.io/deploy" \
-            -H "Authorization: Bearer ${{ secrets.LEVV_TOKEN }}" \
+            -H "Authorization: Bearer ${{ secrets.LEVV_AUTH }}" \
             -d '{"project":"jeremy-website"}'
