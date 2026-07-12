@@ -31,7 +31,7 @@ jobs:
             -t slaar/jijiwebsite:${TAG} .
 
       - name: Deploy to Levv
+        env:
+          LEVV_AUTH: ${{ secrets.LEVV_AUTH }}
         run: |
-          curl -X POST "https://api.levv.io/deploy" \
-            -H "Authorization: Bearer ${{ secrets.LEVV_AUTH }}" \
-            -d '{"project":"jeremy-website"}'
+          levv apply -f docker-compose.yaml -p jeremy-website
