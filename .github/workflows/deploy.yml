@@ -30,6 +30,10 @@ jobs:
             --push \
             -t slaar/jijiwebsite:${TAG} .
 
+      - name: Install Levv CLI
+        run: |
+          curl https://releases.levv.io/install.sh | bash
+
       - name: Deploy to Levv
         env:
           LEVV_AUTH: ${{ secrets.LEVV_AUTH }}
