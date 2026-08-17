@@ -28,7 +28,7 @@ jobs:
           docker buildx build \
             --platform linux/amd64 \
             --push \
-            -t slaar/jijiwebsite:${TAG} .
+            -t jeremybocquet/jijiwebsite:${TAG} .
 
       - name: Install Levv CLI
         run: |
