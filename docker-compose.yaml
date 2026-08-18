@@ -1,6 +1,6 @@
 services:
   nextjs:
-    image: slaar/jijiwebsite:${TAG}
+    image: jeremybocquet/jijiwebsite:${TAG}
 
     labels:
       io.levv.public: "80/http"
