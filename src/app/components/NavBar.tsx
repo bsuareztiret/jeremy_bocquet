@@ -29,7 +29,7 @@ export function NavBar() {
           <h2>Musique</h2>
         </Link>
         <Link href={ROUTE.BIO} onClick={handleClick}>
-          <h2>Biographie</h2>
+          <h2>Biographi</h2>
         </Link>
         <Link href={ROUTE.COMMANDES} onClick={handleClick}>
           <h2>Commandes</h2>
