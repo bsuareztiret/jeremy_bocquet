@@ -38,4 +38,4 @@ jobs:
         env:
           LEVV_AUTH: ${{ secrets.LEVV_AUTH }}
         run: |
-          levv apply -f docker-compose.yaml -p jeremy-website
+          levv apply -f docker-compose.yaml -p jiji_website
